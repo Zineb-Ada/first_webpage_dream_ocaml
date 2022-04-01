@@ -1,0 +1,11 @@
+
+(executable
+ (name picturegenerator_hakingDays)
+ (libraries dream)
+(preprocess (pps lwt_ppx)))
+(rule
+ (targets picturegenerator_hakingDays.ml)
+ (deps picturegenerator_hakingDays.eml.ml)
+ (action (run dream_eml %{deps} --workspace %{workspace_root})))
+
+ (data_only_dirs _esy esy.lock lib node_modules)

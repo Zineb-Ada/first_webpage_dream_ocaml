@@ -1,0 +1,311 @@
+# /Users/tarides/.esy/3________________________________________________________________/i/opam__s__dune-opam__c__2.9.3-7af34c65/bin/dune exec --root . ./picturegenerator_hakingDays.exe
+# OCAMLPARAM: unset
+# Workspace root: /Users/tarides/Desktop/Tarides-Ocaml/dream_ocaml
+$ /usr/bin/getconf _NPROCESSORS_ONLN > /var/folders/4_/sklhcczx3xd33g2m3hmnpx7h0000gn/T/dune071971.output 2> /dev/null
+# Auto-detected concurrency: 8
+# disable binary cache
+$ /Users/tarides/.esy/3________________________________________________________________/i/ocaml-4.12.0-44d44425/bin/ocamlc.opt -config > /var/folders/4_/sklhcczx3xd33g2m3hmnpx7h0000gn/T/dune32f628.output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dyn
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path =
+#      Some
+#        External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/ocaml-4.12.0-44d44425/lib/ocaml"
+#  ; ocaml_bin =
+#      External
+#        "/Users/tarides/.esy/3________________________________________________________________/i/ocaml-4.12.0-44d44425/bin"
+#  ; ocaml =
+#      Ok
+#        External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/ocaml-4.12.0-44d44425/bin/ocaml"
+#  ; ocamlc =
+#      External
+#        "/Users/tarides/.esy/3________________________________________________________________/i/ocaml-4.12.0-44d44425/bin/ocamlc.opt"
+#  ; ocamlopt =
+#      Ok
+#        External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/ocaml-4.12.0-44d44425/bin/ocamlopt.opt"
+#  ; ocamldep =
+#      Ok
+#        External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/ocaml-4.12.0-44d44425/bin/ocamldep.opt"
+#  ; ocamlmklib =
+#      Ok
+#        External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/ocaml-4.12.0-44d44425/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" : "/Users/tarides/.opam/4.13.1/lib"
+#        ; "DUNE_OCAML_STDLIB" :
+#            "/Users/tarides/.esy/3________________________________________________________________/i/ocaml-4.12.0-44d44425/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" :
+#            "/Users/tarides/Desktop/Tarides-Ocaml/dream_ocaml"
+#        ; "INSIDE_DUNE" :
+#            "/Users/tarides/Desktop/Tarides-Ocaml/dream_ocaml/_esy/default/store/b/dream__ocaml-010b2219/default"
+#        ; "MANPATH" :
+#            "/Users/tarides/Desktop/Tarides-Ocaml/dream_ocaml//Users/tarides/Desktop/Tarides-Ocaml/dream_ocaml/_esy/default/store/b/dream__ocaml-010b2219/install/default/bin"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/Users/tarides/Desktop/Tarides-Ocaml/dream_ocaml//Users/tarides/Desktop/Tarides-Ocaml/dream_ocaml/_esy/default/store/b/dream__ocaml-010b2219/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/Users/tarides/Desktop/Tarides-Ocaml/dream_ocaml//Users/tarides/Desktop/Tarides-Ocaml/dream_ocaml/_esy/default/store/b/dream__ocaml-010b2219/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_path =
+#      [ External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__dream-opam__c__1.0.0~alpha4-1ff4475d/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__dune-opam__c__2.9.3-7af34c65/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__lwt__ppx-opam__c__2.0.3-a3a15afa/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__ocaml_lsp_server-opam__c__1.9.0-f2cd023a/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/ocaml-4.12.0-44d44425/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/esy_ocaml__s__substs-0.0.1-dcea4195/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__base_unix-opam__c__base-b5812a5c/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__bigarray_compat-opam__c__1.1.0-aee55db0/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__camlp_streams-opam__c__5.0-7f2b0636/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__caqti-opam__c__1.8.0-bc7fc4a3/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__caqti_lwt-opam__c__1.8.0-f60e5491/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__conf_libev-a0da830f/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__cstruct-opam__c__6.1.0-7448a292/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__dream_httpaf-opam__c__1.0.0~alpha1-42226ef0/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__dream_pure-opam__c__1.0.0~alpha2-e53ab5ef/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__fmt-opam__c__0.9.0-0c8bb875/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__graphql_lwt-opam__c__0.13.0-855eea28/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__graphql__parser-opam__c__0.13.0-84a30204/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__logs-opam__c__0.7.0-d30363de/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__lwt-opam__c__5.5.0-59264a2a/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__lwt__ssl-opam__c__1.1.3-25191231/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__magic_mime-opam__c__1.2.0-81ca08f4/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__mirage_clock-opam__c__4.2.0-5fdb1a44/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__mirage_crypto-opam__c__0.10.6-53d6e934/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__mirage_crypto_rng-opam__c__0.10.6-139f4d9e/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__multipart__form-opam__c__0.4.0-b8230f6e/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__multipart__form_lwt-opam__c__0.4.0-ceaa47b7/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__ptime-opam__c__1.0.0-69336f83/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__ssl-opam__c__0.5.10-164cb5ba/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__uri-opam__c__4.2.0-8861cf30/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__yojson-opam__c__1.7.0-43ebddf6/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__base_threads-opam__c__base-beddf47d/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__ppxlib-opam__c__0.26.0-f0c88f69/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__csexp-opam__c__1.5.1-1b389b9c/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__dune_build_info-opam__c__2.9.3-ba427a22/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__ocamlformat_rpc_lib-opam__c__0.18.0-2c592ef0/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__pp-opam__c__1.1.2-c38f3fee/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__ppx__yojson__conv__lib-opam__c__v0.15.0-5de2cdb8/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__re-opam__c__1.10.3-47d56692/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__result-opam__c__1.5-1bde7b51/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__spawn-opam__c__v0.15.0-ed3790fc/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__angstrom-opam__c__0.15.0-66531d31/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__bigstringaf-opam__c__0.8.0-9a83d238/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__cppo-opam__c__1.6.8-422c8347/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__base64-opam__c__3.5.0-0ed26a23/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__digestif-opam__c__1.1.1-d08a0208/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__faraday-opam__c__0.8.1-59996260/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__faraday_lwt_unix-opam__c__0.8.1-9cc15de1/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__psq-opam__c__0.2.0-21b2e9ae/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__hmap-opam__c__0.8.1-2c821f1d/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__ocamlbuild-opam__c__0.14.1-60513937/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.9.3-0d5e4c7c/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__topkg-opam__c__1.0.5-beb852c9/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__graphql-opam__c__0.13.0-f580eee6/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__menhir-opam__c__20220210-9efc47f0/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__dune_configurator-opam__c__2.9.3-b9a31797/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__mmap-opam__c__1.2.0-e4444eeb/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__ocaml_syntax_shims-opam__c__1.0.0-b9866bfb/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__ocplib_endian-opam__c__1.2-7618a7bf/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__seq-opam__c__base-c3d68947/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__conf_pkg_config-opam__c__2-583f8de9/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__eqaf-opam__c__0.8-320cc9f0/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__duration-opam__c__0.2.0-688cec86/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__mtime-opam__c__1.4.0-8ee90489/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__ke-opam__c__0.5-5d02ed2a/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__pecu-opam__c__0.6-948e3400/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__prettym-opam__c__0.0.2-d59e020b/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__rresult-opam__c__0.7.0-9ad4e18a/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__stdlib_shims-opam__c__0.3.0-25ec3d58/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__unstrctrd-opam__c__0.3-798d3e29/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__uutf-opam__c__1.0.3-0e3b6aff/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__conf_libssl-opam__c__3-090e3ad2/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__stringext-opam__c__1.6.0-01ba92b6/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__biniou-opam__c__1.2.1-5b8400ac/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__easy_format-opam__c__1.3.2-121e5ff0/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__ocaml_compiler_libs-opam__c__v0.12.4-c78537d6/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-9501baf1/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__sexplib0-opam__c__v0.15.0-22f3570a/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__base_bytes-opam__c__base-6556b7f9/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__faraday_lwt-opam__c__0.8.1-66bc049c/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__menhirlib-opam__c__20220210-6c5b3825/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__menhirsdk-opam__c__20220210-62b6079f/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/yarn_pkg_config-df6cabe1/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__bigarray_overlap-opam__c__0.2.0-c676f490/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/esy_openssl-09e0d787/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/opam__s__conf_autoconf-49abf111/lib"
+#      ; External
+#          "/Users/tarides/.esy/3________________________________________________________________/i/esy_help2man-19d4fe24/lib"
+#      ; External
+#          "/Users/tarides/Desktop/Tarides-Ocaml/dream_ocaml/node_modules/esy/3/i/esy-cca3445f/lib"
+#      ; External "/Users/tarides/.opam/4.13.1/lib"
+#      ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.12.0"
+#      ; standard_library_default =
+#          "/Users/tarides/.esy/3________________________________________________________________/i/ocaml-4.12.0-44d44425/lib/ocaml"
+#      ; standard_library =
+#          "/Users/tarides/.esy/3________________________________________________________________/i/ocaml-4.12.0-44d44425/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "gcc"
+#      ; ocamlc_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; ocamlopt_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; bytecomp_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; native_c_libraries = [ "-lm" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "macosx"
+#      ; asm = [ "clang"; "-arch"; "x86_64"; "-Wno-trigraphs"; "-c" ]
+#      ; asm_cfi_supported = false
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "x86_64-apple-darwin20.6.0"
+#      ; target = "x86_64-apple-darwin20.6.0"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X029"
+#      ; cmi_magic_number = "Caml1999I029"
+#      ; cmo_magic_number = "Caml1999O029"
+#      ; cma_magic_number = "Caml1999A029"
+#      ; cmx_magic_number = "Caml1999Y029"
+#      ; cmxa_magic_number = "Caml1999Z029"
+#      ; ast_impl_magic_number = "Caml1999M029"
+#      ; ast_intf_magic_number = "Caml1999N029"
+#      ; cmxs_magic_number = "Caml1999D029"
+#      ; cmt_magic_number = "Caml1999T029"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+# Workspace root: /Users/tarides/Desktop/Tarides-Ocaml/dream_ocaml
